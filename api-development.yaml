@@ -11,6 +11,9 @@ spec:
     matchLabels:
       app: "synergychat-api"
   template:
+    metadata:
+      labels:
+        app: "synergychat-api"
     spec:
       containers:
         - name: "synergychat-api"
