@@ -10,6 +10,12 @@
 | `kubectl logs PODNAME` | prints pod-logs to stdout |
 | `kubectl delete pod PODNAME` | kill pod (might take several seconds) |
 | `kubectl proxy` | runs a proxy on your machine [see](#kubectl-proxy)|
+| `kubectl get deployment DEPLOYMENTNAME -o yaml` | take a look at the deployment yaml |
+| `kubectl get deployment DEPLOYMENTNAME -web -o yaml > NEWNAME.yaml` | save config locally |
+| `kubectl apply -f NEWNAME.yaml` | applies locally saved file to cluster |
+| `kubectl get replicasets` | look at running replicasets clusterwide |
+| `` |  |
+| `` |  |
 | `` |  |
 | `` |  |
 
