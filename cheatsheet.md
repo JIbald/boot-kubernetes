@@ -12,8 +12,10 @@
 | `kubectl proxy` | runs a proxy on your machine [see](#kubectl-proxy)|
 | `kubectl get deployment DEPLOYMENTNAME -o yaml` | take a look at the deployment yaml |
 | `kubectl get deployment DEPLOYMENTNAME -web -o yaml > NEWNAME.yaml` | save config locally |
-| `kubectl apply -f NEWNAME.yaml` | applies locally saved file to cluster |
+| `kubectl apply -f NEWNAME.yaml` | applies locally saved file to cluster [see](#kubectl-apply) |
 | `kubectl get replicasets` | look at running replicasets clusterwide |
+| `kubectl get configmap` | validate if configmaps were created / exist |
+| `` |  |
 | `` |  |
 | `` |  |
 | `` |  |
@@ -24,3 +26,7 @@
 This will start a proxy server on your local machine, probably on `127.0.0.1:8000`.
 Assuming that's the host, navigate to `http://127.0.0.1:8001/api/v1/namespaces/default/pods` in your browser.
 You should see a big nasty *JSON* blob that describes the pods that you have running.
+
+#### kubectl apply
+
+Especially useful for uploading `api-configmap.yaml`
