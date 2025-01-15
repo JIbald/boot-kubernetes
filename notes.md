@@ -24,3 +24,17 @@ supports TLS and SSL
 > A cluster is recommended to have an odd number of nodes
 
 etcd is built on the *RAFT consesus algorithm*
+
+## Config Maps
+
+Config Maps Are Insecure
+Great for *innocent* env variables within kubernetes:
+
+Ports
+URLs of other services
+Feature flags
+Settings that change between environments, like DEBUG mode
+
+> not cryptographically secure.
+> ConfigMaps aren't encrypted, and they can be accessed by anyone with access to the cluster.
+> sensitive data should be stored in *Kubernetes Secrets* or another third-party solution.
