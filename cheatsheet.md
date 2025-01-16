@@ -12,13 +12,13 @@
 | `kubectl logs PODNAME` | prints pod-logs to stdout |
 | `kubectl delete pod PODNAME` | kill pod (might take several seconds) |
 | `kubectl proxy` | runs a proxy on your machine [see](#kubectl-proxy)|
+| `kubectl create deployment DEPLOYMENTNAME --image=docker.io/path/to/image:latest` | creates a deployment |
 | `kubectl get deployment DEPLOYMENTNAME -o yaml` | take a look at the deployment yaml |
 | `kubectl get deployment DEPLOYMENTNAME -web -o yaml > NEWNAME.yaml` | save config locally |
 | `kubectl apply -f NEWNAME.yaml` | applies locally saved file to cluster [see](#kubectl-apply) |
 | `kubectl delete -f NEWNAME.yaml` | deletes file in cluster |
 | `kubectl get replicasets` | look at running replicasets clusterwide |
-| `kubectl get configmap` | validate if configmaps were created / exist |
-| `` |  |
+| `kubectl get configmaps` | validate if configmaps were created / exist |
 | `` |  |
 | `` |  |
 | `` |  |
