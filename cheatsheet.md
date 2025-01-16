@@ -1,3 +1,5 @@
+# KUBECTL
+
 | Command | Effect |
 |---------|--------|
 | `kubectl version` | shows version info |
@@ -31,3 +33,12 @@ You should see a big nasty *JSON* blob that describes the pods that you have run
 #### kubectl apply
 
 Especially useful for uploading `api-configmap.yaml`
+
+# minikube
+
+| Command | Effect |
+|---------|--------|
+| `minikube version` |  |
+| `minikube start --extra-config "apiserver.cors-allowed-origins=["http://boot.dev"]"` |  |
+| `minikube dashboard --port=63840` |  |
+| `` |  |
