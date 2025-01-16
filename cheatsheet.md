@@ -34,6 +34,14 @@ You should see a big nasty *JSON* blob that describes the pods that you have run
 
 Especially useful for uploading `api-configmap.yaml`
 
+# Services
+
+| Command | Effect |
+|---------|--------|
+| `kubectl port-forward service/web-service 8080:80` | forward service to local for testing |
+| `` |  |
+| `` |  |
+
 # minikube
 
 | Command | Effect |
