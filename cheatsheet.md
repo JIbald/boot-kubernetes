@@ -19,7 +19,7 @@
 | `kubectl delete -f NEWNAME.yaml` | deletes file in cluster |
 | `kubectl get replicasets` | look at running replicasets clusterwide |
 | `kubectl get configmaps` | validate if configmaps were created / exist |
-| `` |  |
+| `kubectl get svc web-service -o yaml` | takes a look at a service |
 | `` |  |
 | `` |  |
 | `` |  |
