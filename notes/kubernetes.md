@@ -38,3 +38,8 @@ Settings that change between environments, like DEBUG mode
 > not cryptographically secure.
 > ConfigMaps aren't encrypted, and they can be accessed by anyone with access to the cluster.
 > sensitive data should be stored in *Kubernetes Secrets* or another third-party solution.
+
+# Tunnel ch6 l3
+
+## Network Resolution Process
+DNS (/etc/hosts) -> IP address -> ingress controller -> service -> pod

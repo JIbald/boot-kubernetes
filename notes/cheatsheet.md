@@ -49,4 +49,7 @@ Especially useful for uploading `api-configmap.yaml`
 | `minikube version` |  |
 | `minikube start --extra-config "apiserver.cors-allowed-origins=["http://boot.dev"]"` |  |
 | `minikube dashboard --port=63840` |  |
+| `minikube ip` | find local ip address used by minikube |
+| `minikube tunnel -c` | forwards the ingress from minikubes isolated virtual environment to your local cluster |
+| `` |  |
 | `` |  |
