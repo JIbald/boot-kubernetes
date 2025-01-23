@@ -42,4 +42,29 @@ Settings that change between environments, like DEBUG mode
 # Tunnel ch6 l3
 
 ## Network Resolution Process
+
 DNS (/etc/hosts) -> IP address -> ingress controller -> service -> pod
+
+# Persistence Ch7 L5
+
+## Persistent volume
+
+- cluster-level resource
+- created *separately* from the pod
+- then attached to the pod
+- similar to ConfigMap in that way
+
+### static PV
+
+created manually by cluster admin
+
+### dynamic PV
+
+created automatically when a pod requests a volume that doesn't exist yet
+generally preferred
+
+## Persistent Volume Claim *PVC*
+
+- *request* for a persistent volume
+- when using dynamic provisioning, a *PVC* will automatically create a *PV*, unless one matching the Claim already exists
+- the *PVC* is then attached to the pod just like a volume
