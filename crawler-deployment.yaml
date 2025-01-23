@@ -16,7 +16,43 @@ spec:
     spec:
       containers:
         - image: bootdotdev/synergychat-crawler:latest
-          name: synergychat-crawler
+          name: synergychat-crawler-1
           envFrom:
             - configMapRef:
                 name: synergychat-crawler-configmap
+          volumeMounts:
+            - name: cache-volume
+              mountPath: /cache
+        - image: bootdotdev/synergychat-crawler:latest
+          name: synergychat-crawler-2
+          env:
+            - name: CRAWLER_KEYWORDS
+              value: "love,hate,joy,sadness,anger,disgust,fear,surprise"
+            - name: CRAWLER_DB_PATH
+              value: "/cache/db"
+            - name: CRAWLER_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: synergychat-crawler-configmap
+                  key: CRAWLER_PORT_2
+          volumeMounts:
+            - name: cache-volume
+              mountPath: /cache
+        - image: bootdotdev/synergychat-crawler:latest
+          name: synergychat-crawler-3
+          env:
+            - name: CRAWLER_KEYWORDS
+              value: "love,hate,joy,sadness,anger,disgust,fear,surprise"
+            - name: CRAWLER_DB_PATH
+              value: "/cache/db"
+            - name: CRAWLER_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: synergychat-crawler-configmap
+                  key: CRAWLER_PORT_3
+          volumeMounts:
+            - name: cache-volume
+              mountPath: /cache
+      volumes:
+        - name: cache-volume
+          emptyDir: {}
