@@ -48,7 +48,7 @@
 |---------|--------|
 | `kubectl get pvc` |  |
 | `kubectl get pv` |  |
-| `` |  |
+| `kubectl delete pvc <pvc-name>` |  |
 | `` |  |
 | `` |  |
 
