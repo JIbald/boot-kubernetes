@@ -88,6 +88,12 @@ generally preferred
 - after application, the unique identifier is now a combination of namespace and name
     - so **there are still pods with the former unique identifier in the former namespace (e.g. default)**
 
+## Intra Cluster DNS
+
+Kubernetes automatically creates DNS entries for each service that can be used to route HTTP traffic between services. The format is:
+`<service-name>.<namespace>.svc.cluster.local`
+
+
 # Chapter 9: Scaling
 
 # Chapter 10: Nodes

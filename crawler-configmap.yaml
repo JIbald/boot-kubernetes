@@ -9,4 +9,3 @@ data:
   CRAWLER_DB_PATH: "/cache/db"
   CRAWLER_PORT_2: "8081"
   CRAWLER_PORT_3: "8082"
-

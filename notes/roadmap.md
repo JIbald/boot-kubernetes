@@ -47,6 +47,7 @@
 - [ ] [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 - [ ] [PVC (Persistent Volume Claims)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)
 - [ ] [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
+- [ ] [DNS entries](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
 
 # Kubernetes books / articles
 

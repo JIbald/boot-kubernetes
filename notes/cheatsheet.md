@@ -21,6 +21,29 @@
 | `kubectl delete service <service-name>` | deletes service |
 | `kubectl delete configmap <configmap-name>` | deletes configmap |
 
+## Random
+
+| Command | Effect |
+|---------|--------|
+| `kubectl exec deploy/synergychat-api -- env \| grep CRAWLER` |  |
+| `kubectl get service crawler-service -n crawler` |  |
+
+## Deployment
+
+| Command | Effect |
+|---------|--------|
+| `kubectl describe deployment` | shows deployment |
+
+## Configmaps
+
+| Command | Effect |
+|---------|--------|
+| `kubectl get configmaps` | validate if configmaps were created / exist |
+| `kubectl -n <namespace-name> get configmaps` | shows configmaps within certain namespace |
+| `kubectl delete configmap <configmap-name>` | deletes configmap |
+| `kubectl -n <namespace-name> get configmaps` | shows configmaps within certain namespace |
+| `kubectl describe configmap` | shows configmaps |
+
 ## Pods
 
 | Command | Effect |
