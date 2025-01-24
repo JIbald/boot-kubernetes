@@ -1,21 +1,39 @@
 # Boot.dev Course
 
-- [x] Chapter 1
-- [x] Chapter 2
-- [x] Chapter 3
-- [x] Chapter 4
-- [x] Chapter 5
-- [x] Chapter 6
-- [x] Chapter 7
-- [ ] Chapter 8
-- [ ] Chapter 9
-- [ ] Chapter 10
+- [x] Ch 1: Install
+- [x] Ch 2: Pods
+- [x] Ch 3: Deployments
+- [x] Ch 4: ConfigMaps
+- [x] Ch 5: Services
+- [x] Ch 6: Ingress
+    - [x] Ingress
+    - [x] DNS
+    - [x] Tunnel
+    - [x] Ingress Types
+- [x] Ch 7: Storage
+- [ ] Ch 8: Namespaces
+- [ ] Ch 9: Scaling
+- [ ] Ch 10: Nodes
 
 # Kubernetes Docs in order of Boot.dev
 
-- []()
-- []()
-- []()
+- [Kubernetes](https://kubernetes.io/)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/)
+- [Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
+- [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+- [Replicaset](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+- [Creating A Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment)
+- [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/)
+- [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
+- [Services](https://kubernetes.io/docs/concepts/services-networking/service/)
+- [Service Types](https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types)
+- [NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport)
+- [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+    - [Ingress Google GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/load-balance-ingress)
+- [Volumes](https://kubernetes.io/docs/concepts/storage/volumes/)
+- [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+- [PVC (Persistent Volume Claims)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)
 - [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 - []()
 - []()
@@ -24,12 +42,14 @@
 # Kubernetes books / articles
 
 - [ ] Entwickler Magazin 7.2023
+- [ ] 
+- [ ] 
 
 # Tools
 
 ## within Kubernetes
 
-- [ ] test [Grafana](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/)
+- [ ] [Grafana](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/)
 - [ ] [Prometheus](https://prometheus.io/docs/introduction/overview/)
 - [ ] []()
 - [ ] []()
