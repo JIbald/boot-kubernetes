@@ -54,13 +54,13 @@
 
 # Tools
 
-- [Krew Packagemanager](https://krew.sigs.k8s.io/docs/)
-- [Krew Pluginlist](https://krew.sigs.k8s.io/plugins/)
+- [ ] [Krew Packagemanager](https://krew.sigs.k8s.io/docs/)
+- [ ] [Krew Pluginlist](https://krew.sigs.k8s.io/plugins/)
 
 ## within Kubernetes
 
 - [ ] [Grafana](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/)
-- [ ] [Prometheus](https://prometheus.io/docs/introduction/overview/
+- [ ] [Prometheus](https://prometheus.io/docs/introduction/overview/)
 
 ## Tools for the Terminal
 
