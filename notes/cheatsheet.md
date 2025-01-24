@@ -27,12 +27,16 @@
 |---------|--------|
 | `kubectl exec deploy/synergychat-api -- env \| grep CRAWLER` |  |
 | `kubectl get service crawler-service -n crawler` |  |
+| `kubectl delete pod -l app=synergychat-api` | Try deleting the pod to force a new one to be created with the updated ConfigMap |
+| `kubectl logs deploy/synergychat-api` | After the new pod is running, verify the logs |
+| `kubectl exec deploy/synergychat-api -- curl http://crawler-service.crawler.svc.cluster.local:80` | verify the crawler service is working by trying to reach it directly from within the cluster |
 
 ## Deployment
 
 | Command | Effect |
 |---------|--------|
 | `kubectl describe deployment` | shows deployment |
+| `kubectl rollout restart deployment synergychat-api` | Roll out a new deployment |
 
 ## Configmaps
 

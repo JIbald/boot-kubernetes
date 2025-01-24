@@ -93,6 +93,18 @@ generally preferred
 Kubernetes automatically creates DNS entries for each service that can be used to route HTTP traffic between services. The format is:
 `<service-name>.<namespace>.svc.cluster.local`
 
+## Namespace and Routing
+
+- Namespaces impact DNS functionality
+- `http://<service-name>` is enough when working in the same namespace
+
+Unless a service really needs to be made available to the outside world, it's better to keep it internal to the cluster. Internal communications are great because:
+
+- It's faster (assuming nodes are close to each other physically)
+- No public DNS is required
+- Communication is inherently more secure because it runs on an internal network (usually don't even need HTTPS)
+
+
 
 # Chapter 9: Scaling
 

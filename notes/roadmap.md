@@ -19,11 +19,11 @@
     - [x] Persistence
     - [x] Attach Persistence
     - [x] Databases
-- [ ] Ch 8: Namespaces
+- [x] Ch 8: Namespaces
     - [x] Namespaces
     - [x] Moving Namespaces
-    - [ ] Intra-Cluster DNS
-    - [ ] Namespace & Routing Review
+    - [x] Intra-Cluster DNS
+    - [x] Namespace & Routing Review
 - [ ] Ch 9: Scaling
 - [ ] Ch 10: Nodes
 
