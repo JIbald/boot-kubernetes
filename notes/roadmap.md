@@ -4,7 +4,7 @@
 - [x] Ch 2: Pods
 - [x] Ch 3: Deployments
 - [x] Ch 4: ConfigMaps
-- [x] Ch 5: Services
+- [x] <summary>Ch 5: Services</summary>
     - [x] Services
     - [x] Service Types
 - [x] Ch 6: Ingress
