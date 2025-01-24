@@ -5,13 +5,25 @@
 - [x] Ch 3: Deployments
 - [x] Ch 4: ConfigMaps
 - [x] Ch 5: Services
+    - [x] Services
+    - [x] Service Types
 - [x] Ch 6: Ingress
     - [x] Ingress
     - [x] DNS
     - [x] Tunnel
     - [x] Ingress Types
 - [x] Ch 7: Storage
+    - [x] Storage in k8
+    - [x] Ephemeral Volumes
+    - [x] Containers in Pods
+    - [x] Persistence
+    - [x] Attach Persistence
+    - [x] Databases
 - [ ] Ch 8: Namespaces
+    - [x] Namespaces
+    - [x] Moving Namespaces
+    - [ ] Intra-Cluster DNS
+    - [ ] Namespace & Routing Review
 - [ ] Ch 9: Scaling
 - [ ] Ch 10: Nodes
 
@@ -46,6 +58,9 @@
 - [ ] 
 
 # Tools
+
+- [Krew Packagemanager](https://krew.sigs.k8s.io/docs/)
+- [Krew Pluginlist](https://krew.sigs.k8s.io/plugins/)
 
 ## within Kubernetes
 
