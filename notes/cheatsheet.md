@@ -56,14 +56,27 @@
 |---------|--------|
 | `kubectl get namespaces` | shows namespaces of cluster |
 | `kubectl get ns` | same as `kubectl get namespaces` |
+| `kubectl --namespace <namespace-name> get pods` |  |
+| `kubectl -n <namespace-name> get pods` | shows pods within certain namespace |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
 
-#### kubectl proxy
+### kube-system
+`kube-system` namespace horts all the core Kubernetes components.
+Is created automatically upon Kubernetes Installation.
+**don't mess with it**
+
+# Annotations
+
+## kubectl proxy
 
 This will start a proxy server on your local machine, probably on `127.0.0.1:8000`.
 Assuming that's the host, navigate to `http://127.0.0.1:8001/api/v1/namespaces/default/pods` in your browser.
 You should see a big nasty *JSON* blob that describes the pods that you have running.
 
-#### kubectl apply
+## kubectl apply
 
 Especially useful for uploading `api-configmap.yaml`
 
