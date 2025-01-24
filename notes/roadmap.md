@@ -11,14 +11,14 @@
 - [x] Ch 5: Services
 
 </summary>
-    <details>
-    <summary>
+<details>
+<summary>
 
     - [x] Services
     - [x] Service Types
 
-    </summary>
-    </details>
+</summary>
+</details>
 </details>
 
 - [x] Ch 6: Ingress
