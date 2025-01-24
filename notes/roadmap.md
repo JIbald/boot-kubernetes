@@ -10,8 +10,8 @@
 <details>
 <summary>xy</summary>
 
-&nbsp;&nbsp;&nbsp;&nbsp;- [x] Services
-&nbsp;&nbsp;&nbsp;&nbsp;- [x] Service Types
+- [x] Services
+- [x] Service Types
 
 </details>
 
