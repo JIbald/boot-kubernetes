@@ -7,12 +7,16 @@
 
 <details>
 <summary>
+
 - [x] Ch 5: Services
+
 </summary>
     <details>
     <summary>
+
     - [x] Services
     - [x] Service Types
+
     </summary>
     </details>
 </details>
