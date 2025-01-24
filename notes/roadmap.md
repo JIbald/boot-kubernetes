@@ -4,14 +4,9 @@
 - [x] Ch 2: Pods
 - [x] Ch 3: Deployments
 - [x] Ch 4: ConfigMaps
-
 - [x] Ch 5: Services
-<details>
-<summary></summary>
-- [x] Services
-- [x] Service Types
-</details>
-
+    - [x] Services
+    - [x] Service Types
 - [x] Ch 6: Ingress
     - [x] Ingress
     - [x] DNS
