@@ -47,15 +47,10 @@
 - [ ] [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 - [ ] [PVC (Persistent Volume Claims)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)
 - [ ] [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
-- [ ] []()
-- [ ] []()
-- [ ] []()
 
 # Kubernetes books / articles
 
 - [ ] Entwickler Magazin 7.2023
-- [ ] 
-- [ ] 
 
 # Tools
 
@@ -65,10 +60,7 @@
 ## within Kubernetes
 
 - [ ] [Grafana](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/)
-- [ ] [Prometheus](https://prometheus.io/docs/introduction/overview/)
-- [ ] []()
-- [ ] []()
-- [ ] []()
+- [ ] [Prometheus](https://prometheus.io/docs/introduction/overview/
 
 ## Tools for the Terminal
 
