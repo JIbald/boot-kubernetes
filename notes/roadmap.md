@@ -12,8 +12,8 @@
 
 </summary>
 
-    - [x] Services
-    - [x] Service Types
+- [x] Services
+- [x] Service Types
 
 </details>
 
