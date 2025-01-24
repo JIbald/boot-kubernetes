@@ -30,8 +30,6 @@
 | `kubectl delete pod PODNAME` | kill pod (might take several seconds) |
 | `kubectl port-forward PODNAME 8080:8080` | port forward for certain pod |
 
-
-
 ## Logs
 
 | Command | Effect |
@@ -51,6 +49,13 @@
 | `kubectl delete pvc <pvc-name>` |  |
 | `` |  |
 | `` |  |
+
+## Namespaces
+
+| Command | Effect |
+|---------|--------|
+| `kubectl get namespaces` | shows namespaces of cluster |
+| `kubectl get ns` | same as `kubectl get namespaces` |
 
 #### kubectl proxy
 
