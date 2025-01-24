@@ -5,15 +5,13 @@
 - [x] Ch 3: Deployments
 - [x] Ch 4: ConfigMaps
 
-<details>
-<summary>
-
 - [x] Ch 5: Services
 
-</summary>
+<details>
+<summary>xy</summary>
 
-- [x] Services
-- [x] Service Types
+&nbsp;&nbsp;&nbsp;&nbsp;- [x] Services
+&nbsp;&nbsp;&nbsp;&nbsp;- [x] Service Types
 
 </details>
 
