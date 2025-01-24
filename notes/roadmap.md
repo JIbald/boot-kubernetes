@@ -6,13 +6,10 @@
 - [x] Ch 4: ConfigMaps
 
 - [x] Ch 5: Services
-
 <details>
-<summary>xy</summary>
-
+<summary></summary>
 - [x] Services
 - [x] Service Types
-
 </details>
 
 - [x] Ch 6: Ingress
