@@ -85,6 +85,8 @@ generally preferred
 - *namespaces are a way to isolate cluster resources into groups*
 - names are unique in Kubernetes
     - that's how `kubectl apply` knows when to update and when to create a resource
+- after application, the unique identifier is now a combination of namespace and name
+    - so **there are still pods with the former unique identifier in the former namespace (e.g. default)**
 
 # Chapter 9: Scaling
 

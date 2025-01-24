@@ -17,9 +17,9 @@
 | `kubectl get replicasets` | look at running replicasets clusterwide |
 | `kubectl get configmaps` | validate if configmaps were created / exist |
 | `kubectl get svc web-service -o yaml` | takes a look at a service |
-| `` |  |
-| `` |  |
-| `` |  |
+| `kubectl delete deployment <deployment-name>` | deletes deployment |
+| `kubectl delete service <service-name>` | deletes service |
+| `kubectl delete configmap <configmap-name>` | deletes configmap |
 
 ## Pods
 
@@ -58,7 +58,9 @@
 | `kubectl get ns` | same as `kubectl get namespaces` |
 | `kubectl --namespace <namespace-name> get pods` |  |
 | `kubectl -n <namespace-name> get pods` | shows pods within certain namespace |
-| `` |  |
+| `kubectl -n <namespace-name> get svc` | shows services within certain namespace |
+| `kubectl -n <namespace-name> get configmaps` | shows configmaps within certain namespace |
+| `kubectl create ns <name-of-ns>` | creates namespace with name name-of-ns |
 | `` |  |
 | `` |  |
 | `` |  |
