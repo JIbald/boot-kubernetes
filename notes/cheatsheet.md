@@ -92,10 +92,24 @@
 | `` |  |
 | `` |  |
 
-### kube-system
+## Services
+
+| Command | Effect |
+|---------|--------|
+| `kubectl port-forward service/web-service 8080:80` | forward service to local for testing |
+| `` |  |
+| `` |  |
+
+## kube-system
 `kube-system` namespace horts all the core Kubernetes components.
 Is created automatically upon Kubernetes Installation.
 **don't mess with it**
+
+| Command | Effect |
+|---------|--------|
+| `kubectl -n kube-system get pod` | shows core system pods |
+| `kubectl top pod` | shows the resources each pod is using |
+| `` |  |
 
 # Annotations
 
@@ -109,14 +123,6 @@ You should see a big nasty *JSON* blob that describes the pods that you have run
 
 Especially useful for uploading `api-configmap.yaml`
 
-# Services
-
-| Command | Effect |
-|---------|--------|
-| `kubectl port-forward service/web-service 8080:80` | forward service to local for testing |
-| `` |  |
-| `` |  |
-
 # minikube
 
 | Command | Effect |
@@ -126,5 +132,5 @@ Especially useful for uploading `api-configmap.yaml`
 | `minikube dashboard --port=63840` |  |
 | `minikube ip` | find local ip address used by minikube |
 | `minikube tunnel -c` | forwards the ingress from minikubes isolated virtual environment to your local cluster |
-| `` |  |
+| `minikube addons enable <addon-name>` | enables plugin (e.g.: metrics-server, ingress) |
 | `` |  |
