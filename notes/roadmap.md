@@ -25,6 +25,15 @@
     - [x] Intra-Cluster DNS
     - [x] Namespace & Routing Review
 - [ ] Ch 9: Scaling
+    - [x] Top
+    - [x] Vertical & Horizontal Autoscaling
+    - [x] Resource Limits
+    - [x] Limits RAM
+    - [x] Breaking the Limits
+    - [x] Fix the Limits
+    - [ ] Horizontal Pod Autoscaling
+    - [ ] HPA - Web
+    - [ ] HPA - Fix
 - [ ] Ch 10: Nodes
 
 # Kubernetes Docs in order of Boot.dev
@@ -48,6 +57,7 @@
 - [ ] [PVC (Persistent Volume Claims)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims)
 - [ ] [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 - [ ] [DNS entries](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
+- [ ] [HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#algorithm-details)
 
 # Kubernetes books / articles
 

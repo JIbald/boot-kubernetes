@@ -126,4 +126,13 @@ spec:
         cpu: <max-cpu> # measured in cores, m suffix means milli, e.g.: `500m` are millicores
 ```
 
+## Horizontal Pod Autoscaler HPA
+
+A Horizontal Pod Autoscaler can automatically scale the number of Pods in a Deployment based on observed CPU utilization or other custom metrics. It's very common in a Kubernetes environment to have a low number of pods in a deployment, and then scale up the number of pods automatically as CPU usage increases.
+
 # Chapter 10: Nodes
+
+## Resource Requests
+
+We talked about resource limits, but there's another critical concept to understand: resource requests.
+A resource request is the amount of a resource that a pod requests from the node it's running on. A resource limit, on the other hand, is the maximum amount of a resource that a pod is allowed to consume before it's throttled or killed.
