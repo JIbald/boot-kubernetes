@@ -110,4 +110,20 @@ Unless a service really needs to be made available to the outside world, it's be
 
 ## Top
 
+## Resource Limits
+
+We wouldn't want a pod to hog all the CPU and RAM on its node, suffocating all of the other pods on the node.
+Example Resource Limit
+
+```yaml
+spec:
+  containers:
+  - name: <container-name>
+    image: <image-name>
+    resources:
+      limits:
+        memory: <max-memory> # Ki, Mi, Gi (Kilobytes, Megabytes, Gigabytes)
+        cpu: <max-cpu> # measured in cores, m suffix means milli, e.g.: `500m` are millicores
+```
+
 # Chapter 10: Nodes
